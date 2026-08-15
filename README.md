@@ -10,4 +10,4 @@ Go言語の開発ルールなどをまとめています。
 
 ## License
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache2.0-red.svg)](LICENSE)
