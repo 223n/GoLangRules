@@ -974,6 +974,7 @@ go vet ./...
 
 ```yaml
 # .golangci.ymlの例
+version: "2"
 linters:
   enable:
     - staticcheck
@@ -981,6 +982,9 @@ linters:
     - errcheck
     - unused
 ```
+
+`version`は、golangci-lint v2以降で必須です。
+省略すると設定ファイルの検証で失敗し、`golangci-lint run`が起動しません。
 
 ```bash
 golangci-lint run
